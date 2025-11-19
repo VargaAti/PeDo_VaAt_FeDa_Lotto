@@ -11,7 +11,10 @@ gep = []
 for i in range(5):
     gep.append(rn.randint(0, 100))
 
-
+talalt = []
+for i in range(5):
+    if user[i] in gep:
+        talalt.append(user[i])
 
 print(f"A te számjaid: {user}")
 print(f"Nyerő számok: {gep}")
